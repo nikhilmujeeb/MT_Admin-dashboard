@@ -2,7 +2,6 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
-
 import authRoutes from "./routes/auth.js";
 import agentRoutes from "./routes/agent.js";
 import uploadRoutes from "./routes/upload.js";
